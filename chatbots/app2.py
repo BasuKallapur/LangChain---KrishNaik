@@ -27,7 +27,9 @@ st.title("LangChain Gemini Chatbot (using Gemini Pro)")
 inp_text = st.text_input("Please let me know your queries")
 
 # Gemini LLM via LangChain
-llm = ChatGoogleGenerativeAI(model="models/gemini-2.5-pro")
+# llm = ChatGoogleGenerativeAI(model="models/gemini-2.5-pro")
+
+llm = ChatGoogleGenerativeAI(model="models/gemini-2.5-flash-lite-preview-06-17")
 
 # Output parser
 output_parser = StrOutputParser()

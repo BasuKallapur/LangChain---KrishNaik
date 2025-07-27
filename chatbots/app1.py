@@ -27,7 +27,7 @@ st.title("LangChain demo with chatbot created using paid model")
 inp_text = st.text_input("Please let me know your queries")
 
 # OpenAI LLM
-llm = ChatOpenAI(model="gpt-3.5-turbo")
+llm = ChatOpenAI(model="")
 
 # Output parser
 output_parser = StrOutputParser()
